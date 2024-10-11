@@ -10,6 +10,7 @@ Welcome to the Admin Guide for our application.
 4. [Troubleshooting](troubleshooting.md)
 
 ## Getting Started
+![User Profile](images/01-login.png "Example User Profile")
 
 To get started with the admin interface, please refer to the [Installation](installation.md) guide.
 
