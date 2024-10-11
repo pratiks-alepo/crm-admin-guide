@@ -1,4 +1,4 @@
-# Admin Guide
+# Installtion Guide
 
 Welcome to the Admin Guide for our application.
 
