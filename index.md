@@ -3,7 +3,7 @@
 ## Table of Contents
 
 1. [About This Guide](#1-about-this-guide)
-   - [Introduction](#introduction)
+   - [Introduction](installation.md)
    - [Intended Audience](#intended-audience)
    - [Conventions](#conventions)
    - [Commonly Used Terms](#commonly-used-terms)
