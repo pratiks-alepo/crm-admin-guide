@@ -154,7 +154,7 @@ Home > Login
 URL: 172.16.115.52:8080/web/guest/home
 
 ### Screenshot
-![Alepo Service Enabler Login Page](alepo_login_screenshot.png)
+![Alepo Service Enabler Login Page](images/01-login.png)
 
 ### Describe
 This screen allows users to access the Alepo Service Enabler platform. It provides the following benefits:
