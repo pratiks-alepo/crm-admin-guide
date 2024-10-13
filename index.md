@@ -96,49 +96,109 @@
 
 # 1. About This Guide
 
-## Introduction
+## 1.1 Introduction
 
-This guide provides comprehensive instructions for administrators of the Alepo Service Enabler (SE) platform. Alepo SE is a powerful customer relationship management (CRM) and billing solution designed for telecommunications service providers. This guide covers all aspects of system administration, from basic navigation to advanced configuration options.
+This comprehensive guide is designed to assist administrators in effectively managing the Alepo Service Enabler (SE) platform. Alepo SE is a powerful and versatile customer relationship management (CRM) and billing solution specifically tailored for telecommunications service providers. This guide covers all aspects of system administration, from basic navigation to advanced configuration options, ensuring you have the knowledge to maximize the platform's potential.
 
-## Intended Audience
+## 1.2 Intended Audience
 
-This guide is intended for:
-- System administrators responsible for managing the Alepo SE platform
-- IT personnel involved in configuring and maintaining the system
-- Customer service managers overseeing operations
-- Billing and revenue assurance teams
+This guide is primarily intended for:
 
-Users should have a basic understanding of telecommunications concepts and familiarity with web-based applications.
+- System administrators responsible for managing and maintaining the Alepo SE platform
+- IT personnel involved in configuring and troubleshooting the system
+- Customer service managers overseeing day-to-day operations
+- Billing and revenue assurance teams working with financial aspects of the platform
 
-## Conventions
+Users should possess a basic understanding of telecommunications concepts and be familiar with web-based applications. While the guide aims to be comprehensive, some advanced topics may require additional technical expertise.
 
-Throughout this guide, we use the following conventions:
+## 1.3 Conventions
 
-- **Bold text** indicates user interface elements, menu items, or buttons
-- *Italic text* emphasizes important information or introduces new terms
-- `Code font` represents system values, configuration settings, or commands
+To enhance readability and understanding, this guide uses the following conventions:
+
+- **Bold text**: Indicates user interface elements, menu items, or buttons
+- *Italic text*: Emphasizes important information or introduces new terms
+- `Code font`: Represents system values, configuration settings, or commands
 - > Note: Provides additional information or tips
 - ⚠️ Warning: Highlights critical information or potential risks
 
-## Commonly Used Terms
+## 1.4 Commonly Used Terms
+
+To ensure clarity, here are some key terms used throughout this guide:
 
 - **SE**: Service Enabler, the core Alepo platform
 - **Subscriber**: An end-user of the telecommunications services
 - **Plan**: A service package offered to subscribers
 - **Billing Cycle**: The recurring period for which services are billed
 - **Provisioning**: The process of activating services for a subscriber
+- **CRM**: Customer Relationship Management
+- **API**: Application Programming Interface
+- **GUI**: Graphical User Interface
 
-## Open Source Credits
+## 1.5 Open Source Credits
 
-Alepo SE utilizes several open-source technologies. We acknowledge and thank the developers of these projects:
-- [List key open-source components used, if applicable]
+Alepo SE utilizes several open-source technologies in its architecture. For a comprehensive list of these components and their respective licenses, please refer to the [Open Source Credits](open-source-credits.md) document.
 
-## How to Use This Guide
+## 1.6 How to Use This Guide
 
-1. **Navigation**: Use the table of contents to find specific topics quickly.
-2. **Step-by-step Instructions**: Follow the numbered steps for performing tasks.
-3. **Screenshots**: Refer to the provided screenshots for visual guidance.
-4. **Related Topics**: Look for links to related sections for more comprehensive understanding.
-5. **Troubleshooting**: Consult the Appendices for common issues and their solutions.
+To make the most of this guide:
 
-For the latest updates or additional support, please visit our official documentation website or contact Alepo support.
+1. **Navigation**: Use the table of contents to quickly find specific topics or features you need assistance with.
+
+2. **Step-by-step Instructions**: Follow the numbered steps provided for performing tasks. These instructions are designed to be clear and concise.
+
+3. **Screenshots**: Refer to the provided screenshots for visual guidance. These images will help you locate specific elements in the user interface.
+
+4. **Related Topics**: Look for links to related sections for a more comprehensive understanding of interconnected features.
+
+5. **Troubleshooting**: Consult the Appendices for common issues and their solutions. This section can be particularly helpful when encountering problems.
+
+6. **Search Function**: Use your PDF reader's search function to quickly find specific terms or topics within the guide.
+
+7. **Bookmarks**: Create bookmarks for frequently accessed sections to speed up navigation in future sessions.
+
+For the latest updates, additional support resources, or to provide feedback on this guide, please visit our official documentation website or contact Alepo support through your designated channels.
+
+# 2. Getting Started
+
+## 2.1 Logging In
+
+### Navigation
+Home > Login
+
+URL: 172.16.115.52:8080/web/guest/home
+
+### Screenshot
+![Alepo Service Enabler Login Page](alepo_login_screenshot.png)
+
+### Describe
+This screen allows users to securely access the Alepo Service Enabler platform. It provides the following benefits:
+- Secure authentication for authorized users
+- Option to remember login credentials for convenience
+- Password recovery functionality
+
+### Login Process
+To log into the Alepo Service Enabler:
+
+1. Navigate to the login URL in your web browser
+2. Enter your User Id in the provided field
+3. Enter your Password in the provided field
+4. (Optional) Check the "Remember Me" box if you want the system to remember your login
+5. Click the "Sign In" button to access the platform
+
+If you've forgotten your password:
+1. Click the "Forgot Password" link below the password field
+2. Follow the prompts to reset your password
+
+### List of fields
+
+| Field Name | Mandatory | Description |
+|------------|-----------|-------------|
+| User Id | Yes | The unique identifier for your account. This is typically provided by your system administrator. |
+| Password | Yes | Your secure password associated with the User Id. |
+| Remember Me | No | A checkbox that, when selected, allows the system to remember your login credentials for future sessions. |
+
+### Additional notes
+- Ensure you're using a secure network when logging in to protect your credentials.
+- If you're unable to log in after multiple attempts, contact your system administrator for assistance.
+- For security reasons, avoid using the "Remember Me" feature on shared or public computers.
+- The system may lock your account after a certain number of failed login attempts as a security measure.
