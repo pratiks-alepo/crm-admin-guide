@@ -3,7 +3,7 @@
 ## Table of Contents
 
 1. [About This Guide](#1-about-this-guide)
-   - [Introduction](installation.md)
+   - [Introduction](#introduction)
    - [Intended Audience](#intended-audience)
    - [Conventions](#conventions)
    - [Commonly Used Terms](#commonly-used-terms)
@@ -93,3 +93,52 @@
    - [7.2 Troubleshooting Common Issues](#72-troubleshooting-common-issues)
    - [7.3 Keyboard Shortcuts](#73-keyboard-shortcuts)
    - [7.4 System Requirements](#74-system-requirements)
+
+# 1. About This Guide
+
+## Introduction
+
+This guide provides comprehensive instructions for administrators of the Alepo Service Enabler (SE) platform. Alepo SE is a powerful customer relationship management (CRM) and billing solution designed for telecommunications service providers. This guide covers all aspects of system administration, from basic navigation to advanced configuration options.
+
+## Intended Audience
+
+This guide is intended for:
+- System administrators responsible for managing the Alepo SE platform
+- IT personnel involved in configuring and maintaining the system
+- Customer service managers overseeing operations
+- Billing and revenue assurance teams
+
+Users should have a basic understanding of telecommunications concepts and familiarity with web-based applications.
+
+## Conventions
+
+Throughout this guide, we use the following conventions:
+
+- **Bold text** indicates user interface elements, menu items, or buttons
+- *Italic text* emphasizes important information or introduces new terms
+- `Code font` represents system values, configuration settings, or commands
+- > Note: Provides additional information or tips
+- ⚠️ Warning: Highlights critical information or potential risks
+
+## Commonly Used Terms
+
+- **SE**: Service Enabler, the core Alepo platform
+- **Subscriber**: An end-user of the telecommunications services
+- **Plan**: A service package offered to subscribers
+- **Billing Cycle**: The recurring period for which services are billed
+- **Provisioning**: The process of activating services for a subscriber
+
+## Open Source Credits
+
+Alepo SE utilizes several open-source technologies. We acknowledge and thank the developers of these projects:
+- [List key open-source components used, if applicable]
+
+## How to Use This Guide
+
+1. **Navigation**: Use the table of contents to find specific topics quickly.
+2. **Step-by-step Instructions**: Follow the numbered steps for performing tasks.
+3. **Screenshots**: Refer to the provided screenshots for visual guidance.
+4. **Related Topics**: Look for links to related sections for more comprehensive understanding.
+5. **Troubleshooting**: Consult the Appendices for common issues and their solutions.
+
+For the latest updates or additional support, please visit our official documentation website or contact Alepo support.
