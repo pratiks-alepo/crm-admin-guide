@@ -3,17 +3,17 @@
 ## Table of Contents
 
 1. [About This Guide](#1-about-this-guide)
-   - [Introduction](#introduction)
-   - [Intended Audience](#intended-audience)
-   - [Conventions](#conventions)
-   - [Commonly Used Terms](#commonly-used-terms)
-   - [Open Source Credits](#open-source-credits)
-   - [How to Use This Guide](#how-to-use-this-guide)
+   1.1 [Introduction](#11-introduction)
+   1.2 [Intended Audience](#12-intended-audience)
+   1.3 [Conventions](#13-conventions)
+   1.4 [Commonly Used Terms](#14-commonly-used-terms)
+   1.5 [Open Source Credits](#15-open-source-credits)
+   1.6 [How to Use This Guide](#16-how-to-use-this-guide)
 
 2. [Getting Started](#2-getting-started)
-   - [Logging In](#logging-in)
-   - [Dashboard Overview](#dashboard-overview)
-   - [Navigation Basics](#navigation-basics)
+   2.1 [Logging In](#21-logging-in)
+   2.2 [Dashboard Overview](#22-dashboard-overview)
+   2.3 [Navigation Basics](#23-navigation-basics)
 
 3. [Customers](#3-customers)
    - [3.1 Manage Customers](#31-manage-customers)
