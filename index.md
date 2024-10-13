@@ -3,96 +3,96 @@
 ## Table of Contents
 
 1. [About This Guide](#1-about-this-guide)
-   1.1 [Introduction](#11-introduction)
-   1.2 [Intended Audience](#12-intended-audience)
-   1.3 [Conventions](#13-conventions)
-   1.4 [Commonly Used Terms](#14-commonly-used-terms)
-   1.5 [Open Source Credits](#15-open-source-credits)
-   1.6 [How to Use This Guide](#16-how-to-use-this-guide)
+   - [1.1 Introduction](#11-introduction)
+   - [1.2 Intended Audience](#12-intended-audience)
+   - [1.3 Conventions](#13-conventions)
+   - [1.4 Commonly Used Terms](#14-commonly-used-terms)
+   - [1.5 Open Source Credits](#15-open-source-credits)
+   - [1.6 How to Use This Guide](#16-how-to-use-this-guide)
 
 2. [Getting Started](#2-getting-started)
-   2.1 [Logging In](#21-logging-in)
-   2.2 [Dashboard Overview](#22-dashboard-overview)
-   2.3 [Navigation Basics](#23-navigation-basics)
+   - [2.1 Logging In](#21-logging-in)
+   - [2.2 Dashboard Overview](#22-dashboard-overview)
+   - [2.3 Navigation Basics](#23-navigation-basics)
 
 3. [Customers](#3-customers)
-   3.1 [Manage Customers](#31-manage-customers)
-   3.2 [Approve Customers](#32-approve-customers)
-   3.3 [Customer Documents](#33-customer-documents)
-   3.4 [Sessions / Calls](#34-sessions--calls)
-   3.5 [Billing](#35-billing)
-     3.5.1 [Bill Run Status](#351-bill-run-status)
-     3.5.2 [View Invoices](#352-view-invoices)
-     3.5.3 [Transferred Invoices](#353-transferred-invoices)
-     3.5.4 [View Payments](#354-view-payments)
-     3.5.5 [Quick Payment](#355-quick-payment)
-     3.5.6 [Balance Adjustment](#356-balance-adjustment)
-     3.5.7 [Financial Transactions](#357-financial-transactions)
-     3.5.8 [Proforma Billing](#358-proforma-billing)
-   3.6 [Tickets](#36-tickets)
-   3.7 [Provisioned Records](#37-provisioned-records)
+   - [3.1 Manage Customers](#31-manage-customers)
+   - [3.2 Approve Customers](#32-approve-customers)
+   - [3.3 Customer Documents](#33-customer-documents)
+   - [3.4 Sessions / Calls](#34-sessions--calls)
+   - [3.5 Billing](#35-billing)
+     - [Bill Run Status](#bill-run-status)
+     - [View Invoices](#view-invoices)
+     - [Transferred Invoices](#transferred-invoices)
+     - [View Payments](#view-payments)
+     - [Quick Payment](#quick-payment)
+     - [Balance Adjustment](#balance-adjustment)
+     - [Financial Transactions](#financial-transactions)
+     - [Proforma Billing](#proforma-billing)
+   - [3.6 Tickets](#36-tickets)
+   - [3.7 Provisioned Records](#37-provisioned-records)
 
 4. [Affiliates](#4-affiliates)
-   4.1 [Manage Affiliates](#41-manage-affiliates)
-   4.2 [Affiliate Settings](#42-affiliate-settings)
-   4.3 [Cash Register](#43-cash-register)
-     4.3.1 [Manage Cash Register](#431-manage-cash-register)
-     4.3.2 [Cash Register Ledger](#432-cash-register-ledger)
-     4.3.3 [Cash Register Verification](#433-cash-register-verification)
+   - [4.1 Manage Affiliates](#41-manage-affiliates)
+   - [4.2 Affiliate Settings](#42-affiliate-settings)
+   - [4.3 Cash Register](#43-cash-register)
+     - [Manage Cash Register](#manage-cash-register)
+     - [Cash Register Ledger](#cash-register-ledger)
+     - [Cash Register Verification](#cash-register-verification)
 
 5. [Reports](#5-reports)
-   5.1 [Bank Statement](#51-bank-statement)
-   5.2 [Gift Credit History](#52-gift-credit-history)
-   5.3 [Credit Line Statement](#53-credit-line-statement)
-   5.4 [Validity Adjustment](#54-validity-adjustment)
-   5.5 [Billing Promotion History](#55-billing-promotion-history)
-   5.6 [Data Bank Statement](#56-data-bank-statement)
-   5.7 [Reward Points Statement](#57-reward-points-statement)
+   - [5.1 Bank Statement](#51-bank-statement)
+   - [5.2 Gift Credit History](#52-gift-credit-history)
+   - [5.3 Credit Line Statement](#53-credit-line-statement)
+   - [5.4 Validity Adjustment](#54-validity-adjustment)
+   - [5.5 Billing Promotion History](#55-billing-promotion-history)
+   - [5.6 Data Bank Statement](#56-data-bank-statement)
+   - [5.7 Reward Points Statement](#57-reward-points-statement)
 
 6. [Administration](#6-administration)
-   6.1 [Business](#61-business)
-     6.1.1 [Usage Rating](#611-usage-rating)
-     6.1.2 [Policies](#612-policies)
-     6.1.3 [Plans](#613-plans)
-     6.1.4 [Inventory](#614-inventory)
-     6.1.5 [Tickets](#615-tickets)
-   6.2 [System Settings](#62-system-settings)
-     6.2.1 [Notification Framework](#621-notification-framework)
-     6.2.2 [System Configuration](#622-system-configuration)
-     6.2.3 [Configuration Manager](#623-configuration-manager)
-     6.2.4 [Custom Fields](#624-custom-fields)
-     6.2.5 [Server Nodes](#625-server-nodes)
-     6.2.6 [Payment Gateways](#626-payment-gateways)
-     6.2.7 [Pipeline Workflow](#627-pipeline-workflow)
-     6.2.8 [Provisioning Targets](#628-provisioning-targets)
-   6.3 [User Management](#63-user-management)
-     6.3.1 [Users](#631-users)
-     6.3.2 [Roles](#632-roles)
-     6.3.3 [Departments](#633-departments)
-     6.3.4 [Login Tracker](#634-login-tracker)
-   6.4 [Data Management](#64-data-management)
-     6.4.1 [Import / Export](#641-import--export)
-     6.4.2 [Archived Records](#642-archived-records)
-     6.4.3 [Purge Data](#643-purge-data)
-   6.5 [Audit Trail](#65-audit-trail)
-     6.5.1 [System](#651-system)
-     6.5.2 [Operations History](#652-operations-history)
-   6.6 [Logs](#66-logs)
-     6.6.1 [Bill Run Log](#661-bill-run-log)
-     6.6.2 [Provisioning Logs](#662-provisioning-logs)
-     6.6.3 [Web Payment Logs](#663-web-payment-logs)
-     6.6.4 [Direct Debit Logs](#664-direct-debit-logs)
-     6.6.5 [Dunning Logs](#665-dunning-logs)
-     6.6.6 [Failed Operations](#666-failed-operations)
-   6.7 [System Information](#67-system-information)
-     6.7.1 [Version](#671-version)
-     6.7.2 [License](#672-license)
+   - [6.1 Business](#61-business)
+     - [6.1.1 Usage Rating](#611-usage-rating)
+     - [6.1.2 Policies](#612-policies)
+     - [6.1.3 Plans](#613-plans)
+     - [6.1.4 Inventory](#614-inventory)
+     - [6.1.5 Tickets](#615-tickets)
+   - [6.2 System Settings](#62-system-settings)
+     - [6.2.1 Notification Framework](#621-notification-framework)
+     - [6.2.2 System Configuration](#622-system-configuration)
+     - [6.2.3 Configuration Manager](#623-configuration-manager)
+     - [6.2.4 Custom Fields](#624-custom-fields)
+     - [6.2.5 Server Nodes](#625-server-nodes)
+     - [6.2.6 Payment Gateways](#626-payment-gateways)
+     - [6.2.7 Pipeline Workflow](#627-pipeline-workflow)
+     - [6.2.8 Provisioning Targets](#628-provisioning-targets)
+   - [6.3 User Management](#63-user-management)
+     - [6.3.1 Users](#631-users)
+     - [6.3.2 Roles](#632-roles)
+     - [6.3.3 Departments](#633-departments)
+     - [6.3.4 Login Tracker](#634-login-tracker)
+   - [6.4 Data Management](#64-data-management)
+     - [6.4.1 Import / Export](#641-import--export)
+     - [6.4.2 Archived Records](#642-archived-records)
+     - [6.4.3 Purge Data](#643-purge-data)
+   - [6.5 Audit Trail](#65-audit-trail)
+     - [6.5.1 System](#651-system)
+     - [6.5.2 Operations History](#652-operations-history)
+   - [6.6 Logs](#66-logs)
+     - [6.6.1 Bill Run Log](#661-bill-run-log)
+     - [6.6.2 Provisioning Logs](#662-provisioning-logs)
+     - [6.6.3 Web Payment Logs](#663-web-payment-logs)
+     - [6.6.4 Direct Debit Logs](#664-direct-debit-logs)
+     - [6.6.5 Dunning Logs](#665-dunning-logs)
+     - [6.6.6 Failed Operations](#666-failed-operations)
+   - [6.7 System Information](#67-system-information)
+     - [6.7.1 Version](#671-version)
+     - [6.7.2 License](#672-license)
 
 7. [Appendices](#7-appendices)
-   7.1 [Glossary of Terms](#71-glossary-of-terms)
-   7.2 [Troubleshooting Common Issues](#72-troubleshooting-common-issues)
-   7.3 [Keyboard Shortcuts](#73-keyboard-shortcuts)
-   7.4 [System Requirements](#74-system-requirements)
+   - [7.1 Glossary of Terms](#71-glossary-of-terms)
+   - [7.2 Troubleshooting Common Issues](#72-troubleshooting-common-issues)
+   - [7.3 Keyboard Shortcuts](#73-keyboard-shortcuts)
+   - [7.4 System Requirements](#74-system-requirements)
 
 # 1. About This Guide
 
@@ -142,49 +142,3 @@ Alepo SE utilizes several open-source technologies. We acknowledge and thank the
 5. **Troubleshooting**: Consult the Appendices for common issues and their solutions.
 
 For the latest updates or additional support, please visit our official documentation website or contact Alepo support.
-
-
-# 2. Getting Started
-
-## 2.1 Logging In
-
-### Navigation
-Home > Login
-
-URL: 172.16.115.52:8080/web/guest/home
-
-### Screenshot
-![Alepo Service Enabler Login Page](images/01-login.png)
-
-### Describe
-This screen allows users to access the Alepo Service Enabler platform. It provides the following benefits:
-- Secure authentication for authorized users
-- Option to remember login credentials for convenience
-- Password recovery functionality
-
-### Login Process
-To log into the Alepo Service Enabler:
-
-1. Navigate to the login URL in your web browser
-2. Enter your User Id in the provided field
-3. Enter your Password in the provided field
-4. (Optional) Check the "Remember Me" box if you want the system to remember your login
-5. Click the "Sign In" button to access the platform
-
-If you've forgotten your password:
-1. Click the "Forgot Password" link below the password field
-2. Follow the prompts to reset your password
-
-### List of fields
-
-| Sr. No. | Field Name | Mandatory | Description |
-|---------|------------|-----------|-------------|
-| 1 | User Id | Yes | The unique identifier for your account. This is typically provided by your system administrator. |
-| 2 | Password | Yes | Your secure password associated with the User Id. |
-| 3 | Remember Me | No | A checkbox that, when selected, allows the system to remember your login credentials for future sessions. |
-
-### Additional notes
-- Ensure you're using a secure network when logging in to protect your credentials.
-- If you're unable to log in after multiple attempts, contact your system administrator for assistance.
-- For security reasons, avoid using the "Remember Me" feature on shared or public computers.
-- The system may lock your account after a certain number of failed login attempts as a security measure.
