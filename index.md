@@ -142,3 +142,49 @@ Alepo SE utilizes several open-source technologies. We acknowledge and thank the
 5. **Troubleshooting**: Consult the Appendices for common issues and their solutions.
 
 For the latest updates or additional support, please visit our official documentation website or contact Alepo support.
+
+
+# 2. Getting Started
+
+## 2.1 Logging In
+
+### Navigation
+Home > Login
+
+URL: 172.16.115.52:8080/web/guest/home
+
+### Screenshot
+![Alepo Service Enabler Login Page](alepo_login_screenshot.png)
+
+### Describe
+This screen allows users to access the Alepo Service Enabler platform. It provides the following benefits:
+- Secure authentication for authorized users
+- Option to remember login credentials for convenience
+- Password recovery functionality
+
+### Login Process
+To log into the Alepo Service Enabler:
+
+1. Navigate to the login URL in your web browser
+2. Enter your User Id in the provided field
+3. Enter your Password in the provided field
+4. (Optional) Check the "Remember Me" box if you want the system to remember your login
+5. Click the "Sign In" button to access the platform
+
+If you've forgotten your password:
+1. Click the "Forgot Password" link below the password field
+2. Follow the prompts to reset your password
+
+### List of fields
+
+| Sr. No. | Field Name | Mandatory | Description |
+|---------|------------|-----------|-------------|
+| 1 | User Id | Yes | The unique identifier for your account. This is typically provided by your system administrator. |
+| 2 | Password | Yes | Your secure password associated with the User Id. |
+| 3 | Remember Me | No | A checkbox that, when selected, allows the system to remember your login credentials for future sessions. |
+
+### Additional notes
+- Ensure you're using a secure network when logging in to protect your credentials.
+- If you're unable to log in after multiple attempts, contact your system administrator for assistance.
+- For security reasons, avoid using the "Remember Me" feature on shared or public computers.
+- The system may lock your account after a certain number of failed login attempts as a security measure.
