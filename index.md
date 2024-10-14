@@ -266,7 +266,7 @@ To create a new announcement:
    - **Content**: Use the rich text editor to compose the announcement body. Tools include text formatting, lists, links, and more.
 
 #### Announcement Entry
-![Announcement Entry](images/02-add-announcement.png)
+![Announcement Entry](images/02-add announcement.png)
 
 3. Under the **CONFIGURATION** section, set the following:
    - **Distribution Scope**: Choose the audience for the announcement (default: General).
