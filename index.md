@@ -264,9 +264,9 @@ To create a new announcement:
 2. In the Entry form that appears, fill in the following fields:
    - **Title**: Enter a concise, descriptive title for the announcement (mandatory).
    - **Content**: Use the rich text editor to compose the announcement body. Tools include text formatting, lists, links, and more.
+
 #### Announcement Entry
 ![Announcement Entry](images/02-add-announcement.png)
-
 
 3. Under the **CONFIGURATION** section, set the following:
    - **Distribution Scope**: Choose the audience for the announcement (default: General).
