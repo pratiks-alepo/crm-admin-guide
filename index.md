@@ -203,7 +203,6 @@ If you've forgotten your password:
 - For security reasons, avoid using the "Remember Me" feature on shared or public computers.
 - The system may lock your account after a certain number of failed login attempts as a security measure.
 
-# 2. Getting Started
 
 ## 2.2 Dashboard Overview
 
